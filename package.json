@@ -1,0 +1,13 @@
+{
+  "name": "Squire Mongo",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Daniel Krainas",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-msbuild": "~0.1.11",
+    "grunt-nuget": "~0.1.2",
+    "grunt-mkdir": "~0.1.1",
+    "grunt-mstest": "~0.1.1"
+  }
+}

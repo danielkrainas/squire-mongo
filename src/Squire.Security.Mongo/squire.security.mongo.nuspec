@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>squire.security.mongo</id>
+        <version>$version$</version>
+        <title>Squire Mongo Security Extensions</title>
+        <authors>Daniel Krainas</authors>
+        <owners />
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <tags>squire mongo security</tags>
+        <description>Squire mongo security extensions.</description>
+        <dependencies>
+          <dependency id="squire.essentials" version="" />
+          <dependency id="squire.decoupled" version="" />
+          <dependency id="squire.security" version="" />
+          <dependency id="squire.mongo" version="$version$" />
+          <dependency id="mongocsharpdriver" version="1.8.3" />
+        </dependencies>
+    </metadata>
+    <files>
+    </files>
+</package>

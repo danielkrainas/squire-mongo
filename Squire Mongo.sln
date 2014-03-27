@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squire.Mongo", "src\Squire.Mongo\Squire.Mongo.csproj", "{AF6212B2-9D73-4DA8-8A83-9261D29356D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squire.Security.Mongo", "src\Squire.Security.Mongo\Squire.Security.Mongo.csproj", "{69FF84DE-4833-40ED-8EFD-63251AE52678}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E4D0C0F6-38E8-476C-A9D1-1E3DE0D2447D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squire.Mongo.Tests", "tests\Squire.Mongo.Tests\Squire.Mongo.Tests.csproj", "{55F315FA-416B-4F38-B3F0-77600012C876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squire.Security.Mongo.Tests", "tests\Squire.Security.Mongo.Tests\Squire.Security.Mongo.Tests.csproj", "{59C3E7EA-0322-4003-9A77-EBAE78DDB9A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squire.Decoupled.Mongo", "src\Squire.Decoupled.Mongo\Squire.Decoupled.Mongo.csproj", "{542C91FD-90BF-48AF-9101-55CCB46BBC0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squire.Decoupled.Mongo.Tests", "tests\Squire.Decoupled.Mongo.Tests\Squire.Decoupled.Mongo.Tests.csproj", "{BF914B5D-7D82-4078-ABDF-0F901F7A690F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5C7CD482-1679-43B3-AFC5-09154A2121E5}"
+	ProjectSection(SolutionItems) = preProject
+		GlobalAssemblyInfo.cs = GlobalAssemblyInfo.cs
+		Gruntfile.js = Gruntfile.js
+		MIT-LICENSE.txt = MIT-LICENSE.txt
+		package.json = package.json
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{18DA1346-43DE-4B56-B8D7-238E8AA59768}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF6212B2-9D73-4DA8-8A83-9261D29356D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6212B2-9D73-4DA8-8A83-9261D29356D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6212B2-9D73-4DA8-8A83-9261D29356D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6212B2-9D73-4DA8-8A83-9261D29356D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69FF84DE-4833-40ED-8EFD-63251AE52678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69FF84DE-4833-40ED-8EFD-63251AE52678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69FF84DE-4833-40ED-8EFD-63251AE52678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69FF84DE-4833-40ED-8EFD-63251AE52678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F315FA-416B-4F38-B3F0-77600012C876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F315FA-416B-4F38-B3F0-77600012C876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F315FA-416B-4F38-B3F0-77600012C876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F315FA-416B-4F38-B3F0-77600012C876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C3E7EA-0322-4003-9A77-EBAE78DDB9A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C3E7EA-0322-4003-9A77-EBAE78DDB9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C3E7EA-0322-4003-9A77-EBAE78DDB9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C3E7EA-0322-4003-9A77-EBAE78DDB9A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542C91FD-90BF-48AF-9101-55CCB46BBC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542C91FD-90BF-48AF-9101-55CCB46BBC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542C91FD-90BF-48AF-9101-55CCB46BBC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542C91FD-90BF-48AF-9101-55CCB46BBC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF914B5D-7D82-4078-ABDF-0F901F7A690F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF914B5D-7D82-4078-ABDF-0F901F7A690F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF914B5D-7D82-4078-ABDF-0F901F7A690F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF914B5D-7D82-4078-ABDF-0F901F7A690F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55F315FA-416B-4F38-B3F0-77600012C876} = {E4D0C0F6-38E8-476C-A9D1-1E3DE0D2447D}
+		{59C3E7EA-0322-4003-9A77-EBAE78DDB9A8} = {E4D0C0F6-38E8-476C-A9D1-1E3DE0D2447D}
+		{BF914B5D-7D82-4078-ABDF-0F901F7A690F} = {E4D0C0F6-38E8-476C-A9D1-1E3DE0D2447D}
+	EndGlobalSection
+EndGlobal
