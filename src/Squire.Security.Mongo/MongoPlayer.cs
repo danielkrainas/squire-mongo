@@ -12,6 +12,7 @@
         public MongoPlayer()
         {
             this.CreatedOn = DateTime.UtcNow;
+            this.Roles = new List<string>();
             this.Id = ObjectId.GenerateNewId(this.CreatedOn);
         }
 
@@ -84,6 +85,12 @@
         }
 
         public string Password
+        {
+            get;
+            set;
+        }
+
+        public ICollection<string> Roles
         {
             get;
             set;
