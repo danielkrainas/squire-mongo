@@ -9,6 +9,8 @@
     "grunt-msbuild": "~0.1.11",
     "grunt-nuget": "~0.1.2",
     "grunt-mkdir": "~0.1.1",
-    "grunt-mstest": "~0.1.1"
+    "grunt-mstest": "~0.1.1",
+    "grunt-bump": "0.0.13",
+    "grunt-dotnet-assembly-info": "~1.0.11"
   }
 }
