@@ -67,6 +67,7 @@
     <Compile Include="MongoGetPlayerByNameHandler.cs" />
     <Compile Include="MongoPlayer.cs" />
     <Compile Include="MongoPlayerResolver.cs" />
+    <Compile Include="MongoPlayerTokenizer.cs" />
     <Compile Include="MongoRegisterPlayerHandler.cs" />
     <Compile Include="MongoRoleResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
