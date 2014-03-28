@@ -2,6 +2,7 @@
   "name": "Squire.Mongo",
   "version": "0.1.0",
   "description": "",
+  "private": true,
   "author": "Daniel Krainas",
   "license": "MIT",
   "devDependencies": {
